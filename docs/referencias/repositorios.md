@@ -43,4 +43,4 @@ Estos repositorios ya pertenecen a la cuenta de la autora; GitHub no permite que
 
 ## Estado operativo
 
-No se hizo `git push` del repositorio local. Los forks no se incorporan como submódulos ni se copian dentro de este repositorio; se mantienen como enlaces para preservar separación de procedencia.
+El repositorio fue publicado en `origin/main`. Los forks no se incorporan como submódulos ni se copian dentro de este repositorio; se mantienen como enlaces para preservar separación de procedencia.

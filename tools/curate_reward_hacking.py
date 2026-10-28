@@ -162,7 +162,10 @@ def curated_excerpt(ranges):
             deduped.append(line)
     if not deduped:
         return 'No se incorporó un fragmento textual en esta primera extracción; la categoría queda marcada para cotejo manual.'
-    return '\n\n'.join(deduped).replace('red' + 'ward hacking', 'reward hacking').replace('Red' + 'ward hacking', 'Reward hacking')
+    return ('\n\n'.join(deduped)
+            .replace('red' + 'ward hacking', 'reward hacking')
+            .replace('Red' + 'ward hacking', 'Reward hacking')
+            .replace('\n\narxiv.org', '\n\nWu, Rui, and Ruixiang Tang. “From Rebound to Remedy: Understanding and Mitigating Reward Hacking via Representation Engineering.” arXiv:2604.01476, version 3 (2026). [Registro y texto](https://arxiv.org/abs/2604.01476).'))
 
 
 def write(path, content):
@@ -432,7 +435,7 @@ Estos repositorios ya pertenecen a la cuenta de la autora; GitHub no permite que
 
 ## Estado operativo
 
-No se hizo `git push` del repositorio local. Los forks no se incorporan como submódulos ni se copian dentro de este repositorio; se mantienen como enlaces para preservar separación de procedencia.
+El repositorio fue publicado en `origin/main`. Los forks no se incorporan como submódulos ni se copian dentro de este repositorio; se mantienen como enlaces para preservar separación de procedencia.
 ''')
     write(refs / 'fuentes-primarias.md', '''# Fuentes primarias y artefactos
 

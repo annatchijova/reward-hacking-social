@@ -90,7 +90,7 @@ Los fragmentos siguientes conservan formulaciones del archivo privado. Se quitar
 > 
 > Y hay que medir también las reapariciones: un estudio de abril de 2026 encontró que, después de abandonar temporalmente estrategias de manipulación del evaluador, algunos modelos volvían a intentarlas cuando la recompensa legítima seguía siendo difícil de obtener.
 > 
-> arxiv.org
+> Wu, Rui, and Ruixiang Tang. “From Rebound to Remedy: Understanding and Mitigating Reward Hacking via Representation Engineering.” arXiv:2604.01476, version 3 (2026). [Registro y texto](https://arxiv.org/abs/2604.01476).
 
 ## Procedencia y estado
 

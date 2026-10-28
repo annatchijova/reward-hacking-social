@@ -338,6 +338,7 @@ La respuesta todavía no es una tasa universal ni una teoría causal cerrada. Es
 
 - [Bibliografía principal](docs/referencias/bibliografia.md)
 - [Repositorios y forks](docs/referencias/repositorios.md)
+- [SKILLS — reglas de auditoría y disciplina](https://github.com/annatchijova/SKILLS)
 - [Fuentes primarias y artefactos](docs/referencias/fuentes-primarias.md)
 - [Jacobian Lens, contexto exploratorio](docs/26-jacobian-lens-y-exploraciones.md)
 - [Auditoría de cobertura](docs/32-auditoria-de-cobertura.md)
