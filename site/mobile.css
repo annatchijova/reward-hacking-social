@@ -11,6 +11,15 @@
     min-width: 0;
   }
 
+  .header-cta {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 7px 9px;
+    font-size: 9px;
+    letter-spacing: .1em;
+  }
+
   .nav-pills {
     order: 3;
     flex: 0 0 100%;
@@ -130,6 +139,11 @@
 @media (max-width: 380px) {
   .wordmark {
     font-size: 14px;
+  }
+
+  .header-cta {
+    padding-inline: 7px;
+    font-size: 8px;
   }
 
   .nav-pills {
