@@ -4,6 +4,8 @@ Quedan abiertas la medición causal del efecto de las skills, la separación ent
 
 El siguiente paso experimental debe declarar tarea, condición, oráculo, denominador, intervención, variables de proceso y criterio de aceptación antes de ejecutar la comparación.
 
+Sobre la comparación web/CLI en particular, ver [La superficie de acceso a información como parte del sistema de referencia](35-superficie-de-acceso-cli-vs-web.md): una hipótesis abductiva pendiente de contrastación que distingue dos modos de reward hacking (confabulación por certeza en CLI sin búsqueda, corroboración fabricada en web) en lugar de tratar la comparación como una sola categoría de "mala información".
+
 ## Agenda de investigación
 
 ```mermaid
@@ -136,3 +138,4 @@ Los fragmentos siguientes conservan formulaciones del archivo privado. Se quitar
 
 - [Índice general](00-indice-general.md)
 - [Matriz de trazabilidad](31-matriz-de-trazabilidad.md)
+- [La superficie de acceso a información como parte del sistema de referencia](35-superficie-de-acceso-cli-vs-web.md)

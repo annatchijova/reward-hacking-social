@@ -31,6 +31,7 @@ Este índice ordena la curaduría derivada de `reward_hacking.md`. Los documento
 - [Evolución del debate y correcciones](27-evolucion-y-correcciones.md) — HISTORIA INTELECTUAL / CORRECCIÓN DOCUMENTADA
 - [Glosario operativo](28-glosario.md) — NORMALIZACIÓN TERMINOLÓGICA
 - [Preguntas abiertas y próximos experimentos](29-preguntas-abiertas.md) — PENDIENTE DE CONTRASTACIÓN
+- [La superficie de acceso a información como parte del sistema de referencia](35-superficie-de-acceso-cli-vs-web.md) — HIPÓTESIS ABDUCTIVA / PENDIENTE DE CONTRASTACIÓN (autoría: Claude, en diálogo con Anna Tchijova)
 
 ## Mapa de lectura
 

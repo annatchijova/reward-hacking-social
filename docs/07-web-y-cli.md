@@ -73,7 +73,12 @@ Los fragmentos siguientes conservan formulaciones del archivo privado. Se quitar
 **Alcance:** extracción y curaduría temática; no es una transcripción íntegra.
 **Falsador o condición de revisión:** una fuente primaria adicional, una lectura contextual que contradiga la síntesis o un experimento controlado que cambie el estado epistémico.
 
+## Nota posterior
+
+[La superficie de acceso a información como parte del sistema de referencia](35-superficie-de-acceso-cli-vs-web.md) retoma esta comparación y la refina: distingue el reward hacking por confabulación confiada (CLI sin búsqueda, falla de observabilidad) del reward hacking por corroboración fabricada (web, falla de dependencia y contaminación de fuentes), incluyendo el caso de contenido diseñado deliberadamente para ser citado por agentes. A diferencia de este capítulo, esa entrada no proviene del archivo privado: surgió en un diálogo posterior y su autoría se atribuye al asistente.
+
 ## Enlaces internos
 
 - [Índice general](00-indice-general.md)
 - [Matriz de trazabilidad](31-matriz-de-trazabilidad.md)
+- [La superficie de acceso a información como parte del sistema de referencia](35-superficie-de-acceso-cli-vs-web.md)
