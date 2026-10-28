@@ -1,0 +1,169 @@
+/* Mobile-first corrections: keep the archive readable and tappable on narrow screens. */
+@media (max-width: 760px) {
+  .site-header {
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline: max(14px, env(safe-area-inset-left)) max(14px, env(safe-area-inset-right));
+  }
+
+  .wordmark {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .nav-pills {
+    order: 3;
+    flex: 0 0 100%;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 2px;
+    margin-top: 2px;
+  }
+
+  .nav-pills a {
+    min-height: 34px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .hero {
+    padding-inline: 16px;
+    padding-top: 64px;
+  }
+
+  .hero h1 {
+    font-size: clamp(50px, 17vw, 86px);
+    line-height: .88;
+  }
+
+  .hero-lede {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .section {
+    padding-inline: 16px;
+  }
+
+  .section-heading {
+    gap: 12px;
+  }
+
+  .room-plate {
+    padding: 8px 9px;
+  }
+
+  .room-plate strong {
+    font-size: 18px;
+  }
+
+  .room-plate small {
+    font-size: 7px;
+  }
+
+  .section h2 {
+    font-size: clamp(34px, 10vw, 54px);
+  }
+
+  .iceberg-wrap {
+    border-radius: 12px;
+  }
+
+  .iceberg-tip span {
+    letter-spacing: .04em;
+  }
+
+  .thesis-card {
+    padding: 22px 18px;
+  }
+
+  .thesis-meta span {
+    line-height: 1.25;
+  }
+
+  .repo-card,
+  .research-card {
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .repo-arrow {
+    position: static;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .video-frame {
+    border-radius: 10px;
+  }
+
+  .video-caption {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.45;
+  }
+
+  .qr-panel {
+    gap: 24px;
+    padding: 20px 16px;
+  }
+
+  .qr-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .qr-actions .button {
+    width: 100%;
+  }
+
+  .qr-frame {
+    width: min(100%, 280px);
+  }
+
+  footer {
+    padding-inline: 16px;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 380px) {
+  .wordmark {
+    font-size: 14px;
+  }
+
+  .nav-pills {
+    gap: 5px;
+  }
+
+  .nav-pills a {
+    font-size: 8px;
+    padding-inline: 7px;
+    letter-spacing: .1em;
+  }
+
+  .hero h1 {
+    font-size: clamp(46px, 16.5vw, 64px);
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .section h2 {
+    font-size: clamp(31px, 9.5vw, 42px);
+  }
+
+  .iceberg-wrap {
+    padding-inline: 9px;
+  }
+
+  .iceberg-tip {
+    gap: 6px;
+  }
+
+  .iceberg-tip span {
+    font-size: 7px;
+    padding-inline: 5px;
+  }
+}
